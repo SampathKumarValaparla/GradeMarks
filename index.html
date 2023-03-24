@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="Hedding">Grade System</h1>
+        <form class="content">
+            <label >English</label>
+            <input type="number" placeholder="Enter Marks" class="sub marks" id="English">
+            <label >Matchs</label>
+            <input type="number" placeholder="Enter Marks" class="sub marks" id="Matchs">
+            <label >Physics</label>
+            <input type="number" placeholder="Enter Marks" class="sub marks" id="Physics">
+            <label >Chemistry</label>
+            <input type="number" placeholder="Enter Marks" class="sub marks" id="Chemistry">
+            <label >Computers</label>
+            <input type="number" placeholder="Enter Marks" class="sub marks" id="Computers">
+        </form>
+        <button class="Button" onclick="calculateMarks()">Submit</button>
+
+        <div class="sidebar">
+            <div class="TMcontainer">
+                <h2 class="Tmarks">Total Marks</h2>
+                <h2 id="marksCount">0</h2>
+    
+            </div>
+            <div class="TAverage">
+                <h2 class="Average">Average</h2>
+                <h2 id="AverageM">0</h2>
+    
+            </div>
+            <div class="TGrade">
+                <h2>Grade</h2>
+                <h2 id="GradeM">Ur fail</h2>
+    
+            </div>
+
+
+        </div>
+
+    </section>
+    
+
+    <script src="grade.js"></script>
+</body>
+</html>

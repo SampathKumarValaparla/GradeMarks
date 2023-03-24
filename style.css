@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    margin: 10px;
+}
+.Hedding{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 30px;
+    margin-left: 100px;
+    
+}
+form> label{
+    font-size: 26px;
+    font-weight: 500;
+}
+.sub{
+    height: 30px;
+}
+.Button{
+    position: relative;
+    left: 200px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.sidebar{
+    margin-top: 6vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.TMcontainer{
+    margin: 20px 20px;
+    font-size: 30px;
+
+}
+.TAverage{
+    margin: 20px 20px;
+    font-size: 30px;
+
+}
+.TGrade{
+    margin: 20px 20px;
+    font-size: 30px;
+
+}
